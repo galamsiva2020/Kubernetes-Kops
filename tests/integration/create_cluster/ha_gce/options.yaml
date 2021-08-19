@@ -1,0 +1,13 @@
+ClusterName: ha-gce.example.com
+Zones:
+- us-test1-a
+- us-test1-b
+- us-test1-c
+MasterZones:
+- us-test1-a
+- us-test1-b
+- us-test1-c
+CloudProvider: gce
+Networking: cni
+KubernetesVersion: v1.21.0
+Project: testproject
